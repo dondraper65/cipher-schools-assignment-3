@@ -57,7 +57,14 @@ class Home extends Component{
                     </div>
                     <Typography className = {this.state.errorDisplay} variant = "h6" style ={{textAlign:'center', marginTop: 16}}><span>No Data Has Been Recieved</span></Typography>
                     <Typography variant ="h4" className = {this.state.greetingDisplay} style ={{textAlign:'center', marginTop: 16, fontWeight: 'bold'}}component = "div"><span>Type a Dish Name to Search for it's ingredient</span></Typography>
+                    {(this.state.recipes != null) &&
+                    this.state.recipes.map(recipe =>{
+                        let i =0;
+                        i++
+                        return <RecipeCard key = {recipe.idMeal + i} id = {recipe.idMeal +i} likeId = {i} recipe = {recipe}/>
 
+                    })
+                    }
                     
                 </div>
             </div>
