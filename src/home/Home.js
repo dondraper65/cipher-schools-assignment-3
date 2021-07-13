@@ -26,7 +26,18 @@ class Home extends Component{
         this.setState({searchInput: event.target.value})
     }
 
+    recipeSearchHandler = async () =>{
+        this.setState({recipes:null, errorDisplay: "dispNone"})
+        let url = "https://www.themealdb.com/api/json/v1/1/search.php?s="+this.state.searchInput;
+        let response = await fetch(url);
+        let data = await response.json();
+        this.setState({recipes: data.meals, greetingDisplay: "dispNone"})
 
+        if (data.meals=== null || this.state.searchInput === ""){
+            this.setState({errorDisplay: "DispBlock", recipes: null});
+        }
+
+    }
     
 
     render(){
