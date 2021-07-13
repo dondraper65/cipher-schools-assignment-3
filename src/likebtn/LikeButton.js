@@ -3,7 +3,9 @@ import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutline
 import "./LikeButton.css"
 
 
-class LikeButton extends Component{
+class LikeButton extends Component{         //Created a like button component to add functionality to like buttons and 
+                                            //to make sure like buttons of different cards don't conflict and 
+                                            //to make code organised
 
     constructor()
     {
@@ -24,7 +26,7 @@ class LikeButton extends Component{
 
     render(){
         return(
-            <div className = "like-icon">
+            <div className = "like-icon">       {/* Made sure i gave a unique id to each like button so they dont collide*/}
                 <FavoriteBorderOutlinedIcon id = {this.props.num}  className = {this.state.color} onClick = {this.likeClickHandler} />
             </div>
         )

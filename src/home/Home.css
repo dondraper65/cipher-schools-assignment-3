@@ -20,19 +20,19 @@ input {
     border: white;
     font-weight: bold;
     font-size: medium;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   /*Added box shadows for visual appeal*/
+    border-radius: 5px;                               /*Added border radius to button to make it curvy and visually appealing*/
 }
 
 .btn:hover{
     cursor: pointer;
 }
 
-.dispNone{
+.dispNone{                                            /*Classname used to change the state of the greetings and error messages*/
     display: none;
 }
 
-.dipsBlock{
+.dipsBlock{                                            /*Classname used to change the state of the greetings and error messages*/ 
     display: block;
 }
 

@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css';                             //imported index.css
 import reportWebVitals from './reportWebVitals';
-import '@fontsource/roboto';
+import '@fontsource/roboto';                      //installed font roboto and imported it
 import Home from "./home/Home";
 
 
 
 ReactDOM.render(
-  <Home/>,
+  <Home/>,                                       //rendered the home component
   document.getElementById('root')
 );
 
