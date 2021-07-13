@@ -8,7 +8,7 @@ class Header extends Component{
         return(
             <div>
                 <div className = "heading">
-                    <Typography variant = "h2" component = "headline">Recipe Finder</Typography>
+                    <Typography variant = "h2" style = {{fontWeight: 'bold'}}>Recipe Finder</Typography>
                 </div>
 
             </div>
