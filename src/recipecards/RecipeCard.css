@@ -94,23 +94,4 @@ a:hover {
 
 }
 
-@media screen and (max-width: 600px){
-    .cardContent{
-        display: flex;
-        flex-direction: column;
-    }
-    .left{
-        width: 95%;
-    }
-    .right{
-        width: 95%;
-    }
 
-    .pic{
-        height: 200px;
-        width: 200px
-    }
-    .recipe-heading{
-        margin-left: 0;
-    }
-}
