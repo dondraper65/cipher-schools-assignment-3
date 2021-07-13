@@ -15,7 +15,20 @@ class RecipeCard extends Component{
 
 
 
-
+    likeClickHandler = (likeid) =>{
+        let likeIconList = [];
+        for (let like of this.state.likeIcons){
+            let likeNode = like;
+            if(like.id === likeid){
+                likeNode.color = "yellow"
+            } else {
+                likeNode.color = "black";
+            }
+            likeIconList.push(likeNode);
+        }
+        this.setState({likeIcons: likeIconList});
+        
+    }
 
     array = () =>{
         let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
