@@ -17,6 +17,13 @@ class RecipeCard extends Component{
 
 
 
+    array = () =>{
+        let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+        let filtered = array.filter(n=> (this.props.recipe["strIngredient"+n] !=="" && this.props.recipe["strIngredient"+n] !== null ))
+        return filtered;
+        
+    }
+
 
     render(){
         return (
