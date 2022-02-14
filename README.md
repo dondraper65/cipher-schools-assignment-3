@@ -1,27 +1,28 @@
-# Recipe Finder React Project Upgrad
+# Recipe App Using React
 *Submitted By*: **Rahul Singh Raghav**
 
 
 ## About
-Recipe Finder is a React App which, as the title suggests helps the user find recipes of the dishes/delicacies he/she searches for. 
+Recipe App is a React App which displays dishes to user when logged in. User can add/delete dishes from the page. 
 
 ## Resources
 1. Material UI
 2. React
 3. API: MealDB API
+4. ContentEditable component
+5. react modal
 
 ## Guidelines Followed
 1. Clean code with Comments
-2. Small incremental commits made specifying each functionality added
-3. Added greeting and error message functionality
 4. Used Mealdb api to fetch data. 
 5. like/unlike button functionality implemented
-6. Page view matches the view provided in Screenshots
-7. Meal name opens the source recipe url when clicked
-8. Javascript/HTML/CSS code produces no error. All guidelines are followed
-9. Made page responsive.
+6. delete recipes functionality
+7. Used contentEditable to edit the recipe card template which appears when new recipe is clicked
+8. Meal name opens the source recipe url when clicked
+9. Javascript/HTML/CSS code produces no error. All guidelines are followed
+10. Made page responsive.
 
 
+### NOTE: Used contentEditable to edit the recipe card template which appears when new recipe is clicked
+link: https://www.npmjs.com/package/react-contenteditable
 
-## Notes For Evaluator
-1. The recipe box has a max width of 250 px and shows a scrollbar only if content requires more than 250px
