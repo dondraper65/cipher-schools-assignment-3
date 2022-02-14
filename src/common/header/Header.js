@@ -315,7 +315,7 @@ class Header extends Component{         /*Created for the purpose of reusability
                     {(this.state.clickValue >0)?
                         Array(this.state.clickValue).fill(0).map((item, index) => {
                             return (
-                                <AddRecipe key = {`addedRecipeindex${index}`} id = {`add${index}`} />
+                                <AddRecipe key = {`addedRecipeindex${index}`} num = {index} id = {`add${index}`} />
                             )}):
                         null
                     
