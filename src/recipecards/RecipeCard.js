@@ -2,14 +2,14 @@ import { Typography } from '@material-ui/core';
 import React, {Component} from 'react';
 import "./RecipeCard.css";
 import LikeButton from "../likebtn/LikeButton"         //Like button will be imported from another file to make code clean and to make sure the file is not overcrowded with setState methods
-
+import DeleteIcon from '@material-ui/core/DeleteIcon';
 class RecipeCard extends Component{
 
     constructor()
     {
         
         super();
-        this.state = {                                  //Added for the sake of future use
+        this.state = {                               //Added for the sake of future use
         }
     }
 
@@ -31,6 +31,7 @@ class RecipeCard extends Component{
                             <div className = "card-header-container">  {/*Added heading with an achor tag which directs to the source url of the recipe provided by the api*/}
                                 <div className = "recipe-heading"  style = {{fontWeight: 'bold'}}><a href = {this.props.recipe.strSource} rel="noopener noreferrer" target = "_blank">{this.props.recipe.strMeal}</a></div>
                                 <LikeButton  id = {"like"+this.props.i} num = {this.props.i}/>    {/*Like button comonent is called here for a card */}
+                                <DeleteIcon id = {`delete${this.props.i}`} num = {this.props.i}/> 
                             </div>
 
                             <div className = "cardContent">
