@@ -67,8 +67,8 @@ class AddRecipe extends Component{
                                 
                                     <div className = "right">   {/*Created left right classes to divide the picture and content in a way that was required */}
                                         <div className = "description">
-                                            <Typography><span style = {{fontStyle: "italic"}}>Category of Meal - <ContentEditable html={this.state.category} disabled = {false} onChange = {this.categoryHandler}/></span></Typography>
-                                            <Typography><span style = {{fontStyle: "italic"}}>Area of the Meal - <ContentEditable html={this.state.area} disabled = {false} onChange = {this.areaHandler}/></span></Typography>
+                                            <div><span style = {{fontStyle: "italic"}}>Category of Meal - <ContentEditable html={this.state.category} disabled = {false} onChange = {this.categoryHandler}/></span></div>
+                                            <div><span style = {{fontStyle: "italic"}}>Area of the Meal - <ContentEditable html={this.state.area} disabled = {false} onChange = {this.areaHandler}/></span></div>
                                         </div>
                                         <div>
                                             <Typography><span style = {{fontStyle: "italic"}}>Ingredients</span></Typography>

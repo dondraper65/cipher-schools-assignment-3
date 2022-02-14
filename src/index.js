@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';                             //imported index.css
 import reportWebVitals from './reportWebVitals';
 import '@fontsource/roboto';                      //installed font roboto and imported it
-import Home from "./home/Home";
+import Home from "./App/App";
 
 
 

@@ -1,8 +1,6 @@
-.MuiTypography-h2{                  /*Figured out the color needed through third party site by posting the given page screenshot */
-    color: #886c6c;
-}
 
-.heading{
+input {
+    background-color: white;
     text-align: center;
 }
 
@@ -10,18 +8,10 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    text-align: center;
-
     
 }
-
-.btns{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-
+.flex-container>div{
+    margin: 16px;
 }
 
 .btn{
@@ -37,3 +27,15 @@
 .btn:hover{
     cursor: pointer;
 }
+
+.dispNone{                                            /*Classname used to change the state of the greetings and error messages*/
+    display: none;
+}
+
+.dipsBlock{                                            /*Classname used to change the state of the greetings and error messages*/ 
+    display: block;
+}
+
+
+
+
