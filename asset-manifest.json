@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cipher-schools-assignment-3/static/css/main.7ec12093.chunk.css",
+    "main.js": "/cipher-schools-assignment-3/static/js/main.d1e6a569.chunk.js",
+    "main.js.map": "/cipher-schools-assignment-3/static/js/main.d1e6a569.chunk.js.map",
+    "runtime-main.js": "/cipher-schools-assignment-3/static/js/runtime-main.b1b2df9a.js",
+    "runtime-main.js.map": "/cipher-schools-assignment-3/static/js/runtime-main.b1b2df9a.js.map",
+    "static/css/2.1e577ddb.chunk.css": "/cipher-schools-assignment-3/static/css/2.1e577ddb.chunk.css",
+    "static/js/2.d78a0380.chunk.js": "/cipher-schools-assignment-3/static/js/2.d78a0380.chunk.js",
+    "static/js/2.d78a0380.chunk.js.map": "/cipher-schools-assignment-3/static/js/2.d78a0380.chunk.js.map",
+    "static/js/3.297b4aa7.chunk.js": "/cipher-schools-assignment-3/static/js/3.297b4aa7.chunk.js",
+    "static/js/3.297b4aa7.chunk.js.map": "/cipher-schools-assignment-3/static/js/3.297b4aa7.chunk.js.map",
+    "index.html": "/cipher-schools-assignment-3/index.html",
+    "static/css/2.1e577ddb.chunk.css.map": "/cipher-schools-assignment-3/static/css/2.1e577ddb.chunk.css.map",
+    "static/css/main.7ec12093.chunk.css.map": "/cipher-schools-assignment-3/static/css/main.7ec12093.chunk.css.map",
+    "static/js/2.d78a0380.chunk.js.LICENSE.txt": "/cipher-schools-assignment-3/static/js/2.d78a0380.chunk.js.LICENSE.txt",
+    "static/media/recipe.dd3d0f50.jpg": "/cipher-schools-assignment-3/static/media/recipe.dd3d0f50.jpg",
+    "static/media/index.css": "/cipher-schools-assignment-3/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1b2df9a.js",
+    "static/css/2.1e577ddb.chunk.css",
+    "static/js/2.d78a0380.chunk.js",
+    "static/css/main.7ec12093.chunk.css",
+    "static/js/main.d1e6a569.chunk.js"
+  ]
+}
